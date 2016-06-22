@@ -14,14 +14,15 @@ public class Quiz {
 
     /**
      * Asks the questions and provides the answers
-     * @param curentQuestion
-     * @param level
-     * @return
+     * @param curentQuestion The current Question
+     * @param level The level of the Question
+     * @return True if the user answer is right or false if it is not
      */
     public boolean askQuestion(Question curentQuestion, int level) {
         this.level = level;
         System.out.println("Die "+new Integer(1+level)*100+" Euro Frage!");
         System.out.println(curentQuestion.getQuestion());
+        //Sets the position of the right answer so it will be random
         int positionCorrectAnswer = (int) (Math.random() * ((curentQuestion.getWrongAnswers().size()) + 1));
         curentQuestion.getWrongAnswers().add(positionCorrectAnswer, curentQuestion.getCorrectAnswer());
         for (int j = 0; j < curentQuestion.getWrongAnswers().size(); j++) {
@@ -40,26 +41,32 @@ public class Quiz {
     /**
      * Checks if the answer is true
      * or executes the 50:50 Joker
-     * @param amountOfAnswers
-     * @param positionCorrectAnswer
-     * @param curentQuestion
-     * @return
+     * @param amountOfAnswers The amount of possible answers the question got
+     * @param positionCorrectAnswer The position of the correct answer
+     * @param curentQuestion The question
+     * @return true if the users answer is right, false if it is wrong
      */
     private boolean getUserInput(int amountOfAnswers, int positionCorrectAnswer, Question curentQuestion) {
         int userAnswer = Tastatur.intInput();
+       //Checks if the user input is valid
         while (userAnswer < 0 || userAnswer > amountOfAnswers) {
             System.out.println("Invalide Antwort");
             userAnswer = Tastatur.intInput();
         }
+        //checks if the users input is correct
         if (userAnswer == positionCorrectAnswer + 1) {
             System.out.println("Korrekt!\n");
             return true;
+            // If the user uses the joker
         } else if (joker && userAnswer == 5) {
-            String wrongQuestion = curentQuestion.joker(positionCorrectAnswer);
-            List<String> wrongQuestions = new ArrayList<>();
-            wrongQuestions.add(wrongQuestion);
-            Question question = new Question(curentQuestion.getQuestion(), 0, curentQuestion.getCorrectAnswer(), wrongQuestions);
+            //gets one wrong answer
+            String wrongAnswer = curentQuestion.joker(positionCorrectAnswer);
+            List<String> wrongAnswers = new ArrayList<>();
+            wrongAnswers.add(wrongAnswer);
+            //Creates a new Question Object
+            Question question = new Question(curentQuestion.getQuestion(), 0, curentQuestion.getCorrectAnswer(), wrongAnswers);
             joker = false;
+            //Ask the question again with only two answer possibilities
             return askQuestion(question, level);
 
         } else {

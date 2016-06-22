@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<quizList>
+    <questions>
+        <correctAnswer>Pisa</correctAnswer>
+        <level>1</level>
+        <wrongAnswers>Rom</wrongAnswers>
+        <wrongAnswers>Moskau</wrongAnswers>
+        <wrongAnswers>Mailand</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>England</correctAnswer>
+        <level>1</level>
+        <wrongAnswers>Niederlande</wrongAnswers>
+        <wrongAnswers>Belgien</wrongAnswers>
+        <wrongAnswers>Spanien</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>8</correctAnswer>
+        <level>1</level>
+        <wrongAnswers>6</wrongAnswers>
+        <wrongAnswers>4</wrongAnswers>
+        <wrongAnswers>7</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Pumuckel</correctAnswer>
+        <level>1</level>
+        <wrongAnswers>Peter</wrongAnswers>
+        <wrongAnswers>Pokemon</wrongAnswers>
+        <wrongAnswers>Puta</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>60min</correctAnswer>
+        <level>2</level>
+        <wrongAnswers>30min</wrongAnswers>
+        <wrongAnswers>90min</wrongAnswers>
+        <wrongAnswers>120min</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Schokolade</correctAnswer>
+        <level>2</level>
+        <wrongAnswers>Spinat</wrongAnswers>
+        <wrongAnswers>Rindfleisch</wrongAnswers>
+        <wrongAnswers>Aprikosen</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>nein, die Dose ist teurer als das Cola</correctAnswer>
+        <level>2</level>
+        <wrongAnswers>nein, das Cola ist teurer als die Dose</wrongAnswers>
+        <wrongAnswers>ja, beides kostet etwa gleich viel</wrongAnswers>
+        <wrongAnswers>Egal , solang Whisky drin ist</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Weil er nicht dick ist</correctAnswer>
+        <level>2</level>
+        <wrongAnswers>weil er aus beruflichen Gründen dick sein muss</wrongAnswers>
+        <wrongAnswers>weil er krankheitsbedingt viel Fett essen muss</wrongAnswers>
+        <wrongAnswers>weil er damit ein Wette verlieren würde</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>von der natürlichen Strahlung der Erde</correctAnswer>
+        <level>3</level>
+        <wrongAnswers>von Atomkraftwerken und radioaktivem Abfall</wrongAnswers>
+        <wrongAnswers>von zurückliegenden Atombomben­Tests</wrongAnswers>
+        <wrongAnswers>aus dem Weltraum</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Weihwasser</correctAnswer>
+        <level>3</level>
+        <wrongAnswers>Kaugummi</wrongAnswers>
+        <wrongAnswers>Schokolade</wrongAnswers>
+        <wrongAnswers>Brot</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Hamburg</correctAnswer>
+        <level>3</level>
+        <wrongAnswers>Venedig</wrongAnswers>
+        <wrongAnswers>Amsterdam</wrongAnswers>
+        <wrongAnswers>Barcelona</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Feuchtigkeit</correctAnswer>
+        <level>3</level>
+        <wrongAnswers>Sauerstoff</wrongAnswers>
+        <wrongAnswers>Wärme</wrongAnswers>
+        <wrongAnswers>Kälte</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>weil sie gar kein Mensch ist</correctAnswer>
+        <level>4</level>
+        <wrongAnswers>weil sie dafür eine Gefängnisstrafe bekam</wrongAnswers>
+        <wrongAnswers>weil ihr jemand vergiftete Zigaretten gab</wrongAnswers>
+        <wrongAnswers>weil sie Sex dafür anbot</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>auf Friedhöfen</correctAnswer>
+        <level>4</level>
+        <wrongAnswers>am Nordpol</wrongAnswers>
+        <wrongAnswers>vor Parkhäusern</wrongAnswers>
+        <wrongAnswers>hinterm Mond</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Er griff versehentlich neben den Hörer.</correctAnswer>
+        <level>4</level>
+        <wrongAnswers>Er bekam einen elektrischen Schlag.</wrongAnswers>
+        <wrongAnswers>Er erschrak sich über den Anrufer zu Tode.</wrongAnswers>
+        <wrongAnswers>Der Anrufer hypnotisierte ihn.</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>über 10 PS</correctAnswer>
+        <level>4</level>
+        <wrongAnswers>unter 0,1 PS</wrongAnswers>
+        <wrongAnswers>etwa 1 PS</wrongAnswers>
+        <wrongAnswers>10 PS</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>0 Prozent</correctAnswer>
+        <level>5</level>
+        <wrongAnswers>5 Prozent</wrongAnswers>
+        <wrongAnswers>30 Prozent</wrongAnswers>
+        <wrongAnswers>100 Prozent</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Zwei von drei</correctAnswer>
+        <level>5</level>
+        <wrongAnswers>3 prozent</wrongAnswers>
+        <wrongAnswers>jeder 2.</wrongAnswers>
+        <wrongAnswers>jeder überlebt</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>Wireless Local Area Network</correctAnswer>
+        <level>5</level>
+        <wrongAnswers>Wild life Animal Network</wrongAnswers>
+        <wrongAnswers>Wireless Local Advanced Network</wrongAnswers>
+        <wrongAnswers>Wow Lol amk Noob</wrongAnswers>
+    </questions>
+    <questions>
+        <correctAnswer>ISIN</correctAnswer>
+        <level>5</level>
+        <wrongAnswers>ISDN</wrongAnswers>
+        <wrongAnswers>IBAN</wrongAnswers>
+        <wrongAnswers>ISBN</wrongAnswers>
+    </questions>
+</quizList>

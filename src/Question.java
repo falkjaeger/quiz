@@ -1,6 +1,11 @@
 import java.util.List;
 
 /**
+ * An Object that holds
+ *  The Question
+ *  The Correct answer
+ *  The level (difficulty) of the Question
+ *  And the wrong Answers
  * Created by falk on 17.06.16.
  */
 public class Question {
