@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <quizList>
     <questions>
+        <question>In welcher italienischen Stadt, steht der berühmte schiefe Turm der Welt ?</question>
         <correctAnswer>Pisa</correctAnswer>
         <level>1</level>
         <wrongAnswers>Rom</wrongAnswers>
@@ -8,6 +9,7 @@
         <wrongAnswers>Mailand</wrongAnswers>
     </questions>
     <questions>
+        <question>In welchem europäischen Land herrscht Linksverkehr ?</question>
         <correctAnswer>England</correctAnswer>
         <level>1</level>
         <wrongAnswers>Niederlande</wrongAnswers>
@@ -15,6 +17,7 @@
         <wrongAnswers>Spanien</wrongAnswers>
     </questions>
     <questions>
+        <question>Wieviele Beine hat eine Spinne?</question>
         <correctAnswer>8</correctAnswer>
         <level>1</level>
         <wrongAnswers>6</wrongAnswers>
@@ -22,6 +25,7 @@
         <wrongAnswers>7</wrongAnswers>
     </questions>
     <questions>
+        <question>Wie heißt der freche Kobold von Meister Eder?</question>
         <correctAnswer>Pumuckel</correctAnswer>
         <level>1</level>
         <wrongAnswers>Peter</wrongAnswers>
@@ -29,6 +33,7 @@
         <wrongAnswers>Puta</wrongAnswers>
     </questions>
     <questions>
+        <question>Ludwig ist beim Arzt und bekommt drei Tabletten, die er alle 30 Minuten einnehmen soll. Wann nimmt er die letzte ?</question>
         <correctAnswer>60min</correctAnswer>
         <level>2</level>
         <wrongAnswers>30min</wrongAnswers>
@@ -36,6 +41,7 @@
         <wrongAnswers>120min</wrongAnswers>
     </questions>
     <questions>
+        <question>Welches der unten genannten Lebensmittel enthält am meisten Eisen?</question>
         <correctAnswer>Schokolade</correctAnswer>
         <level>2</level>
         <wrongAnswers>Spinat</wrongAnswers>
@@ -43,6 +49,7 @@
         <wrongAnswers>Aprikosen</wrongAnswers>
     </questions>
     <questions>
+        <question>Stimmt es, dass die Herstellung einer Cola­Dose etwa gleich viel kostet, wie die Herstellung des Colas, das darin enthaltenen ist?</question>
         <correctAnswer>nein, die Dose ist teurer als das Cola</correctAnswer>
         <level>2</level>
         <wrongAnswers>nein, das Cola ist teurer als die Dose</wrongAnswers>
@@ -50,6 +57,7 @@
         <wrongAnswers>Egal , solang Whisky drin ist</wrongAnswers>
     </questions>
     <questions>
+        <question>Warum macht ein Ukrainer namens "Leonid Stadnik" keine Diät, obwohl er 210 kg wiegt?</question>
         <correctAnswer>Weil er nicht dick ist</correctAnswer>
         <level>2</level>
         <wrongAnswers>weil er aus beruflichen Gründen dick sein muss</wrongAnswers>
@@ -57,6 +65,7 @@
         <wrongAnswers>weil er damit ein Wette verlieren würde</wrongAnswers>
     </questions>
     <questions>
+        <question>Wovon bekommen wir die meiste radioaktive Strahlung ab?ürlichen Strahlung der Erdeückliegenden Atombomben­Tests</question>
         <correctAnswer>von der natürlichen Strahlung der Erde</correctAnswer>
         <level>3</level>
         <wrongAnswers>von Atomkraftwerken und radioaktivem Abfall</wrongAnswers>
@@ -64,6 +73,7 @@
         <wrongAnswers>aus dem Weltraum</wrongAnswers>
     </questions>
     <questions>
+        <question>Was bekam man beim weltweit ersten Münzautomat für sein Geld?</question>
         <correctAnswer>Weihwasser</correctAnswer>
         <level>3</level>
         <wrongAnswers>Kaugummi</wrongAnswers>
@@ -71,6 +81,7 @@
         <wrongAnswers>Brot</wrongAnswers>
     </questions>
     <questions>
+        <question>In welcher europäischen Stadt gibt es die meisten Brücken?</question>
         <correctAnswer>Hamburg</correctAnswer>
         <level>3</level>
         <wrongAnswers>Venedig</wrongAnswers>
@@ -78,6 +89,7 @@
         <wrongAnswers>Barcelona</wrongAnswers>
     </questions>
     <questions>
+        <question>Wodurch "trocknet" Sekundenkleber?ärmeälte</question>
         <correctAnswer>Feuchtigkeit</correctAnswer>
         <level>3</level>
         <wrongAnswers>Sauerstoff</wrongAnswers>
@@ -85,6 +97,7 @@
         <wrongAnswers>Kälte</wrongAnswers>
     </questions>
     <questions>
+        <question>Warum berichteten im August 2004 weltweit einige Zeitungen darüber, dass eine 13­jährige in China raucht und Passanten um Zigaretten anbettelt?</question>
         <correctAnswer>weil sie gar kein Mensch ist</correctAnswer>
         <level>4</level>
         <wrongAnswers>weil sie dafür eine Gefängnisstrafe bekam</wrongAnswers>
@@ -92,6 +105,7 @@
         <wrongAnswers>weil sie Sex dafür anbot</wrongAnswers>
     </questions>
     <questions>
+        <question>1999 sprach man vom Jahr­2000­Problem. Man befürchtete, dass zum Jahrtausendwechsel sämtliche Computer verrückt spielen. Tatsächlich gab es aber ein ganz anderes Jahr­ 2000 ­Problem,aber wo?</question>
         <correctAnswer>auf Friedhöfen</correctAnswer>
         <level>4</level>
         <wrongAnswers>am Nordpol</wrongAnswers>
@@ -99,6 +113,7 @@
         <wrongAnswers>hinterm Mond</wrongAnswers>
     </questions>
     <questions>
+        <question>Am 21. Dezember 1992 kam ein Mann aus North Carolina auf mysteriöse Weise ums Leben nachdem sein Telefon klingelte. Was war passiert?örer..über den Anrufer zu Tode..</question>
         <correctAnswer>Er griff versehentlich neben den Hörer.</correctAnswer>
         <level>4</level>
         <wrongAnswers>Er bekam einen elektrischen Schlag.</wrongAnswers>
@@ -106,6 +121,7 @@
         <wrongAnswers>Der Anrufer hypnotisierte ihn.</wrongAnswers>
     </questions>
     <questions>
+        <question>Wie hoch ist die Höchstleistung eines durchschnittlichen Pferdes?über 10 PS,1 PS</question>
         <correctAnswer>über 10 PS</correctAnswer>
         <level>4</level>
         <wrongAnswers>unter 0,1 PS</wrongAnswers>
@@ -113,6 +129,7 @@
         <wrongAnswers>10 PS</wrongAnswers>
     </questions>
     <questions>
+        <question>Wieviel Prozent Kalbsleber muß in einer Kalbsleberwurst mindestens enthalten sein?</question>
         <correctAnswer>0 Prozent</correctAnswer>
         <level>5</level>
         <wrongAnswers>5 Prozent</wrongAnswers>
@@ -120,6 +137,7 @@
         <wrongAnswers>100 Prozent</wrongAnswers>
     </questions>
     <questions>
+        <question>Wie hoch ist die Überlebens­Chance eines Menschen, der direkt vom Blitz getroffen wird?</question>
         <correctAnswer>Zwei von drei</correctAnswer>
         <level>5</level>
         <wrongAnswers>3 prozent</wrongAnswers>
@@ -127,6 +145,7 @@
         <wrongAnswers>jeder überlebt</wrongAnswers>
     </questions>
     <questions>
+        <question>Was bedeutet die Abkürzung WLAN?</question>
         <correctAnswer>Wireless Local Area Network</correctAnswer>
         <level>5</level>
         <wrongAnswers>Wild life Animal Network</wrongAnswers>
@@ -134,6 +153,7 @@
         <wrongAnswers>Wow Lol amk Noob</wrongAnswers>
     </questions>
     <questions>
+        <question>Mit welcher nummer werden Wertpapiere gekennzeichnet?</question>
         <correctAnswer>ISIN</correctAnswer>
         <level>5</level>
         <wrongAnswers>ISDN</wrongAnswers>

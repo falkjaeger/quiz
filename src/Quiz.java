@@ -8,8 +8,8 @@ public class Quiz {
     private boolean joker;
     private int level;
 
-    public Quiz(boolean joker) {
-        this.joker = joker;
+    public Quiz(GameMode mode) {
+        joker = !mode.equals(GameMode.safety);
     }
 
     /**
@@ -20,13 +20,13 @@ public class Quiz {
      */
     public boolean askQuestion(Question curentQuestion, int level) {
         this.level = level;
-        System.out.println("Die "+new Integer(1+level)*100+" Euro Frage!");
+        System.out.println("Die "+(1+level)*100+" Euro Frage!");
         System.out.println(curentQuestion.getQuestion());
         //Sets the position of the right answer so it will be random
         int positionCorrectAnswer = (int) (Math.random() * ((curentQuestion.getWrongAnswers().size()) + 1));
         curentQuestion.getWrongAnswers().add(positionCorrectAnswer, curentQuestion.getCorrectAnswer());
         for (int j = 0; j < curentQuestion.getWrongAnswers().size(); j++) {
-            System.out.println("\t" + new Integer(1 + j) + ". " + curentQuestion.getWrongAnswers().get(j));
+            System.out.println("\t" + (1 + j) + ". " + curentQuestion.getWrongAnswers().get(j));
         }
         int amountOfAnswers = curentQuestion.getWrongAnswers().size();
         if (joker) {
@@ -49,7 +49,7 @@ public class Quiz {
     private boolean getUserInput(int amountOfAnswers, int positionCorrectAnswer, Question curentQuestion) {
         int userAnswer = Tastatur.intInput();
        //Checks if the user input is valid
-        while (userAnswer < 0 || userAnswer > amountOfAnswers) {
+        while (userAnswer < 1 || userAnswer > amountOfAnswers) {
             System.out.println("Invalide Antwort");
             userAnswer = Tastatur.intInput();
         }

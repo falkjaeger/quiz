@@ -9,14 +9,14 @@ import java.util.List;
  * Created by falk on 17.06.16.
  */
 public class Question {
-    String questions;
+    String question;
     int level;
     String correctAnswer;
     List<String> wrongAnswers;
 
 
     public Question(String questions, int level, String correctAnswer, List<String> wrongAnswers) {
-        this.questions = questions;
+        this.question = questions;
         this.level = level;
         this.correctAnswer = correctAnswer;
         this.wrongAnswers = wrongAnswers;
@@ -27,11 +27,11 @@ public class Question {
     }
 
     public String getQuestion() {
-        return questions;
+        return question;
     }
 
-    public void setQuestions(String questions) {
-        this.questions = questions;
+    public void setQuestion(String questions) {
+        this.question = questions;
     }
 
     public int getLevel() {
@@ -61,7 +61,7 @@ public class Question {
     public String joker(int positionRightAnswer) {
         int wrongQuestion = (int) (Math.random() * ((wrongAnswers.size()-1) + 1));
         while (wrongQuestion == positionRightAnswer){
-            wrongQuestion = (int) (Math.random() * ((wrongAnswers.size()) + 1));
+            wrongQuestion = (int) (Math.random() * ((wrongAnswers.size()-1) + 1));
         }
         return wrongAnswers.get(wrongQuestion);
     }

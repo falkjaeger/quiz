@@ -1,4 +1,5 @@
 import javax.xml.bind.JAXBException;
+import javax.xml.ws.Service;
 import java.io.File;
 import java.io.FileNotFoundException;
 
@@ -7,9 +8,10 @@ import java.io.FileNotFoundException;
  */
 public class Main {
     public static void main(String[] args)  {
-        //If the User got an Joker joker will be true
+        GameMode mode;
+        //If the User got a Joker joker will be true
         boolean joker;
-        //The level pf the current Question
+        //The level of the current Question
         int level = 1;
         QuizParser parser = new QuizParser();
         QuizList questionList;
@@ -17,32 +19,29 @@ public class Main {
             //Parse the File with Questions
             questionList = parser.parseFile();
         } catch (Exception e) {
-            throw new RuntimeException("Failed Parsinf File",e);
+            throw new RuntimeException("Parsing Questions File failed",e);
 
         }
-        System.out.println("Welchen Modus möchtest du spielen? \n" +
-                "1 für die SicherheitsVariante \n" +
-                "2 für die ZockerVariante");
+        System.out.println("Welchen Modus möchtest du spielen? ");
+        for (int i = 0; i < GameMode.values().length; i++) {
+            System.out.println((i+1)+" "+GameMode.values()[i].toString());
+        }
         int modus = Tastatur.intInput();
         //Checks if user Input is correct
-        while (modus < 0 || modus > 2) {
+        while (modus < 1 || modus > GameMode.values().length) {
             System.out.println("Falsche eingabe!");
             modus = Tastatur.intInput();
         }
         //Sets the modus for the game
-        if (modus == 1) {
-            joker = false;
-        } else {
-            joker = true;
-        }
-        Quiz quiz = new Quiz(joker);
+        mode=GameMode.values()[modus-1];
+        Quiz quiz = new Quiz(mode);
         //Ask 5 Random Questions 1 Question per Level
         for (int i = 0; i < 5; i++) {
-            Question curentQuestion = questionList.getQuestion(level);
-            if (quiz.askQuestion(curentQuestion,i)){
+            Question currentQuestion = questionList.getQuestion(level);
+            if (quiz.askQuestion(currentQuestion,i)){
                 level++;
             }else {
-                 if(!joker && level >=4) {
+                 if(mode.equals(GameMode.safety) && level >=4) {
                     System.out.println("Du hast 300 Euro gewonnen");
                     System.exit(1);
                 }else{
